@@ -1,0 +1,28 @@
+{
+  "name": "quiz-back",
+  "version": "1.0.0",
+  "description": "Quiz web application - backend side.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "node server.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszKisiel/quiz-back.git"
+  },
+  "keywords": [
+    "QUIZ"
+  ],
+  "author": "Tomasz Kisiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomaszKisiel/quiz-back/issues"
+  },
+  "homepage": "https://github.com/TomaszKisiel/quiz-back#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
